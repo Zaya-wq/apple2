@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+}
+.body {
+  background: #f5f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-align-center {
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+}
+.logoText {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 44px;
+  color: #cacacc;
+}
+.anchors {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.headerColor {
+  position: relative;
+  width: 100%;
+}
+.flexC {
+  display: flex;
+  width: 100vw;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+}
+.textCon {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+.text {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 20px;
+  color: #1d1d1f;
+  background-color: white;
+  z-index: 1;
+  font-size: 14px;
+}
+.a {
+  width: 5px;
+  height: 10px;
+
+  text-align: center;
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+}
+.blue {
+  width: 70%;
+  background-color: #019ffb;
+  filter: blur(10px);
+}
+.pink {
+  width: 30%;
+  background-color: #f55be4;
+  filter: blur(10px);
+}
+.pinkk {
+  width: 30%;
+  background-color: #e44cbb;
+  filter: blur(10px);
+}
+.orange {
+  width: 30%;
+  background-color: #e44cbb;
+  filter: blur(10px);
+}
+.smalimg {
+  width: 35px;
+  height: 127px;
+  display: flex;
+  align-items: start;
+}
+.womanText {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding: 77px 0px 61px 0px;
+  justify-content: space-between;
+  width: 1920px;
+}
+.display-flex-align {
+  display: flex;
+  align-items: start;
+}
+.store {
+  font-size: 43.875px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.gift {
+  color: #6e6e73;
+  font-size: 43.875px;
+  font-weight: 700;
+}
+.need {
+  color: #1d1d1f;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-weight: 700;
+}
+.anchors {
+  text-decoration: none;
+  color: #06c;
+  font-size: 14px;
+  font-weight: 400;
+}
+.pica {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1920px;
+  height: 198px;
+  gap: 10px;
+}
+.mac {
+  color: #1d1d1f;
+  font-family: "Helvetica Neue";
+  font-size: 13.891px;
+  font-weight: 700;
+}
+.flow-scroll {
+  padding-left: 100px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  width: fit-content;
+  gap: 10px;
+}
+
+.imgWord {
+  position: absolute;
+  top: 100;
+  left: 0;
+}
+.iphone16 {
+  background-image: url("iphone16.jpeg");
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+}
+.watch10 {
+  background-image: url("watch10.jpeg");
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+}
+.imgText {
+  position: relative;
+  width: 480px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.apple_intelligence {
+  color: #b64400;
+  font-family: "Helvetica Neue";
+  font-size: 11.813px;
+  font-weight: 700;
+  line-height: 16px; /* 135.45% */
+  padding: 0px 0px 0px 140px;
+  margin-top: 31px;
+  margin-left: 30px;
+}
+.big_black-words {
+  color: #1d1d1f;
+  font-family: "Helvetica Neue";
+  font-size: 25.594px;
+  font-weight: 700;
+  line-height: 32px; /* 125.031% */
+  margin-left: 30px;
+}
+.price {
+  color: #1d1d1f;
+  font-family: "Helvetica Neue";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px; /* 123.529% */
+  margin-left: 30px;
+}
+.ipad {
+  background-image: url("ipad.jpeg");
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+}
+.macbook {
+  background-image: url("macbook.jpeg");
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+}
